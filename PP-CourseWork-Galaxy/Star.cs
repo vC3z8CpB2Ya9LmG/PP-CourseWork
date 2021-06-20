@@ -6,20 +6,20 @@
         public int Temperature { get; }
         public float Luminosity { get; }
         public float Mass { get; }
-        public float Radius { get; }
+        public float Size { get; }
 
-        public Star(string name,int temperature, float luminosity, float mass, float radius) : base(name)
+        public Star(string name,int temperature, float luminosity, float mass, float size) : base(name)
         {
             Temperature = temperature;
             Luminosity = luminosity;
             Mass = mass;
-            Radius = radius;
+            Size = size;
             StarClass = StarClass.ClassifyStarClass(this);
         }
 
         public override string Stats()
         {
-            return string.Format(Constants.Messages.DETAILS_STAR, Name, StarClass.Name, Mass, Radius, Temperature, Luminosity);
+            return string.Format(Constants.Messages.DETAILS_STAR, Name, StarClass != null ? StarClass.Name : Constants.Messages.NONE, Mass, Size, Temperature, Luminosity);
         }
     }
 }

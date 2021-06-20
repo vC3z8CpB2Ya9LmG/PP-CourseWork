@@ -10,13 +10,13 @@ namespace PP_CourseWork_Galaxy
         public bool IsInhabited;
 
         //TODO: MOVE TO FACTORY
-        public static Planet NewPlanet(string name, String type, bool isInhabited)
+        public static Planet NewPlanet(string name, string type, bool isInhabited)
         {
             if (Enum.IsDefined(typeof(PlanetType),type))
             {
                 return new Planet(name, (PlanetType)Enum.Parse(typeof(PlanetType),type), isInhabited);
             }
-            Console.WriteLine(String.Format(Constants.Messages.INVALID_PLANET_TYPE, type));
+            Console.WriteLine(string.Format(Constants.Messages.INVALID_PLANET_TYPE, type));
             return null;
         }
 

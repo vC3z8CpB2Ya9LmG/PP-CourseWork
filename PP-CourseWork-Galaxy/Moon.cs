@@ -7,7 +7,7 @@ namespace PP_CourseWork_Galaxy
     class Moon : SpaceUnit
     {
 
-        Moon(string name) : base(name)
+        public Moon(string name) : base(name)
         { }
 
         public override string Stats()

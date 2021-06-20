@@ -46,12 +46,11 @@ namespace PP_CourseWork_Galaxy
             fieldsList = fieldsList.FindAll(g => g.IsStatic && g.IsPublic && g.DeclaringType.Name.Equals("StarClass") );
             foreach (var field in fieldsList)
             {
-                Console.WriteLine(field);
                 StarClass starClass = (StarClass)field.GetValue(field);
                 if(star.Temperature >= starClass.MinTemperature && star.Temperature <= starClass.MaxTemperature &&
                     star.Luminosity >= starClass.MinLuminosity && star.Luminosity <= starClass.MaxLuminosity &&
                     star.Mass >= starClass.MinMass && star.Mass <= starClass.MaxMass &&
-                    star.Radius >= starClass.MinRadius && star.Radius <= starClass.MaxRadius)
+                    star.Size/2 >= starClass.MinRadius && star.Size/2 <= starClass.MaxRadius)
                 {
                     return starClass;
                 }
