@@ -3,3 +3,4 @@
 - Parking
 - Students
 - Restaurant
+- Galaxy
