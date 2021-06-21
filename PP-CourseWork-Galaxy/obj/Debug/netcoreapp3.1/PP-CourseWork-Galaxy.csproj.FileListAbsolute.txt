@@ -1,0 +1,13 @@
+E:\Educational\REPO_C#\PP-CourseWork\PP-CourseWork-Galaxy\bin\Debug\netcoreapp3.1\PP-CourseWork-Galaxy.exe
+E:\Educational\REPO_C#\PP-CourseWork\PP-CourseWork-Galaxy\bin\Debug\netcoreapp3.1\PP-CourseWork-Galaxy.deps.json
+E:\Educational\REPO_C#\PP-CourseWork\PP-CourseWork-Galaxy\bin\Debug\netcoreapp3.1\PP-CourseWork-Galaxy.runtimeconfig.json
+E:\Educational\REPO_C#\PP-CourseWork\PP-CourseWork-Galaxy\bin\Debug\netcoreapp3.1\PP-CourseWork-Galaxy.runtimeconfig.dev.json
+E:\Educational\REPO_C#\PP-CourseWork\PP-CourseWork-Galaxy\bin\Debug\netcoreapp3.1\PP-CourseWork-Galaxy.dll
+E:\Educational\REPO_C#\PP-CourseWork\PP-CourseWork-Galaxy\bin\Debug\netcoreapp3.1\PP-CourseWork-Galaxy.pdb
+E:\Educational\REPO_C#\PP-CourseWork\PP-CourseWork-Galaxy\obj\Debug\netcoreapp3.1\PP-CourseWork-Galaxy.AssemblyInfoInputs.cache
+E:\Educational\REPO_C#\PP-CourseWork\PP-CourseWork-Galaxy\obj\Debug\netcoreapp3.1\PP-CourseWork-Galaxy.AssemblyInfo.cs
+E:\Educational\REPO_C#\PP-CourseWork\PP-CourseWork-Galaxy\obj\Debug\netcoreapp3.1\PP-CourseWork-Galaxy.csproj.CoreCompileInputs.cache
+E:\Educational\REPO_C#\PP-CourseWork\PP-CourseWork-Galaxy\obj\Debug\netcoreapp3.1\PP-CourseWork-Galaxy.dll
+E:\Educational\REPO_C#\PP-CourseWork\PP-CourseWork-Galaxy\obj\Debug\netcoreapp3.1\PP-CourseWork-Galaxy.pdb
+E:\Educational\REPO_C#\PP-CourseWork\PP-CourseWork-Galaxy\obj\Debug\netcoreapp3.1\PP-CourseWork-Galaxy.genruntimeconfig.cache
+E:\Educational\REPO_C#\PP-CourseWork\PP-CourseWork-Galaxy\obj\Debug\netcoreapp3.1\PP-CourseWork-Galaxy.csproj.AssemblyReference.cache

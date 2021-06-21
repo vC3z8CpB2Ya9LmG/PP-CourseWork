@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Parking\\PP-CourseWork-Parking.csproj": {}
+    "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Galaxy\\PP-CourseWork-Galaxy.csproj": {}
   },
   "projects": {
-    "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Parking\\PP-CourseWork-Parking.csproj": {
+    "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Galaxy\\PP-CourseWork-Galaxy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Parking\\PP-CourseWork-Parking.csproj",
-        "projectName": "PP-CourseWork-Parking",
-        "projectPath": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Parking\\PP-CourseWork-Parking.csproj",
+        "projectUniqueName": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Galaxy\\PP-CourseWork-Galaxy.csproj",
+        "projectName": "PP-CourseWork-Galaxy",
+        "projectPath": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Galaxy\\PP-CourseWork-Galaxy.csproj",
         "packagesPath": "C:\\Users\\Victoria Valkova\\.nuget\\packages\\",
-        "outputPath": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Parking\\obj\\",
+        "outputPath": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Galaxy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Victoria Valkova\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "dependencies": {
-            "System.Collections.NonGeneric": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

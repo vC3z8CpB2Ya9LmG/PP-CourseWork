@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Students\\PP-CourseWork-Students.csproj",
-      "projectName": "PP-CourseWork-Students",
-      "projectPath": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Students\\PP-CourseWork-Students.csproj",
+      "projectUniqueName": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Galaxy\\PP-CourseWork-Galaxy.csproj",
+      "projectName": "PP-CourseWork-Galaxy",
+      "projectPath": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Galaxy\\PP-CourseWork-Galaxy.csproj",
       "packagesPath": "C:\\Users\\Victoria Valkova\\.nuget\\packages\\",
-      "outputPath": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Students\\obj\\",
+      "outputPath": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Galaxy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Victoria Valkova\\AppData\\Roaming\\NuGet\\NuGet.Config",

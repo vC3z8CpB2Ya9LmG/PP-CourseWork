@@ -1036,7 +1036,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\victo_000\\.nuget\\packages\\": {}
+    "C:\\Users\\Victoria Valkova\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1044,11 +1044,11 @@
       "projectUniqueName": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Parking\\PP-CourseWork-Parking.csproj",
       "projectName": "PP-CourseWork-Parking",
       "projectPath": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Parking\\PP-CourseWork-Parking.csproj",
-      "packagesPath": "C:\\Users\\victo_000\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Victoria Valkova\\.nuget\\packages\\",
       "outputPath": "E:\\Educational\\REPO_C#\\PP-CourseWork\\PP-CourseWork-Parking\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\victo_000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Victoria Valkova\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1060,6 +1060,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -1071,6 +1072,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "System.Collections.NonGeneric": {
             "target": "Package",
@@ -1092,7 +1094,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "D:\\ProgramsAuto\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
