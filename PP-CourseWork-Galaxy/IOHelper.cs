@@ -23,12 +23,6 @@ namespace PP_CourseWork_Galaxy
                     int temperature = ParseIntNumber(elements[length - 2]);
                     float luminosity = ParseFloatNumber(elements[length - 1]);
                     return new Star(name, temperature, luminosity, mass, size);
-
-
-                //                    StarClass(string name, int minTemperature, int maxTemperature, float minLuminosity, float maxLuminosity, float minMass, float maxMass, float minRadius, float maxRadius)
-                //                      add star [Milky way] [Sun] 0.99 1.98 5778 1.00
-                //                      add star [<galaxy name>] [<star name>] <mass> <size> <temp> <luminosity>
-
                 case Constants.Functions.SPACE_UNIT.PLANET:
                     bool isInhabited = elements[length - 1].Equals(Constants.Messages.YES) ? true : false;
                     string type = elements[length - 2];

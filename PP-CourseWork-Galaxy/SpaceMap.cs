@@ -62,7 +62,7 @@ namespace PP_CourseWork_Galaxy
 
         public string GetStatistics()
         {
-            return Constants.Messages.STATS_START +
+            return Constants.Messages.STATS_START + "\n" +
                 Constants.Messages.STATS_GALAXIES + GalaxiesByName.Count + "\n" +
                 Constants.Messages.STATS_STARS + PlanetsByName.Count + "\n" +
                 Constants.Messages.STATS_PLANETS + MoonsByName.Count + "\n" +
@@ -75,32 +75,23 @@ namespace PP_CourseWork_Galaxy
             return GalaxiesByName.ContainsKey(galaxyName) ? GetStatisticsByGalaxy(GalaxiesByName[galaxyName]) : Constants.Messages.NONE;
         }
 
-            public string GetStatisticsByGalaxy(Galaxy galaxy)
+        public string GetStatisticsByGalaxy(Galaxy galaxy)
         {
-            /*
-             public const string STATISTICS_STRUCTURE_BY_GALAXY = 
-                "--- Data for {0} galaxy ---\n{1}\n"+ 
-                STATS_STARS + "\n{2}\n" + 
-                STATS_PLANETS + "\n{3}\n" + 
-                STATS_MOONS + "\n{4}\n" + 
-                "--- End of data for {0} galaxy ---";
-             */
-
             StringBuilder sb = new StringBuilder();
 
-            if (galaxy.Children.Count > 0) sb.Append(Constants.Messages.STATS_STARS);
+            sb.Append(Constants.Messages.STATS_STARS + (galaxy.Children.Count > 0 ? "" : Constants.Messages.NONE)).Append("\n");
             foreach (string starName in galaxy.Children)
             {
                 Star star = StarsByName[starName];
-                sb.Append(StarsByName[starName].ToString() + "\n");
-
-                if (star.Children.Count > 0) sb.Append(Constants.Messages.STATS_PLANETS);
+                sb.Append(StarsByName[starName].ToString() + "\n")
+                    .Append(Constants.Messages.STATS_PLANETS + (star.Children.Count > 0 ? "" : Constants.Messages.NONE))
+                        .Append("\n");
                 foreach (string planetName in star.Children)
                 {
                     Planet planet = PlanetsByName[planetName];
-                    sb.Append(planet.ToString() + "\n");
-                    
-                    if(planet.Children.Count > 0 ) sb.Append(Constants.Messages.STATS_MOONS);
+                    sb.Append(planet.ToString() + "\n")
+                        .Append(Constants.Messages.STATS_MOONS + (planet.Children.Count > 0 ? "" : Constants.Messages.NONE))
+                            .Append("\n");
                     foreach (string moonName in planet.Children)
                     {
                         Moon moon = MoonsByName[moonName];
@@ -109,7 +100,7 @@ namespace PP_CourseWork_Galaxy
                 }
             
             }
-            return string.Format(Constants.Messages.STATISTICS_STRUCTURE_BY_GALAXY, galaxy.Name, galaxy.ToString(), sb.ToString());
+            return sb.ToString();
         }
 
 

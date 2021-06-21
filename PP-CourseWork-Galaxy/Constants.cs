@@ -66,7 +66,7 @@ namespace PP_CourseWork_Galaxy
             public const string NONE = "none";
 
             public const string STATISTICS_STRUCTURE_BY_GALAXY =
-                "--- Data for {0} {1} ---\n{2}--- End of data for {0} {1} ---";
+                "--- Data for {0} {1} ---\n{2}\n--- End of data for {0} {1} ---";
         }
     }
 }
